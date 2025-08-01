@@ -2,10 +2,10 @@
 // This component displays hierarchical data in a tree structure.
 
 import React, { useState } from 'react';
-import { TreeNode, TreeViewProps } from '../../types.ts';
+import { TreeViewProps } from '../../types.ts';
 import { Icon } from './icons.tsx';
 
-const TreeNode: React.FC<{ node: TreeNodeData }> = ({ node }) => {
+const TreeItem: React.FC<{ node: TreeNodeData }> = ({ node }) => {
     const [isOpen, setIsOpen] = useState(node.icon?.includes('open'));
     const hasChildren = node.children && node.children.length > 0;
     const handleToggle = () => { if (hasChildren) setIsOpen(!isOpen); };
@@ -23,14 +23,14 @@ const TreeNode: React.FC<{ node: TreeNodeData }> = ({ node }) => {
             </div>
             {hasChildren && isOpen && (
                 <ul className="pl-6 border-l ml-3 border-border-color dark:border-dark-border-color">
-                    {node.children!.map(child => <TreeNode key={child.id} node={child} />)}
+                    {node.children!.map(child => <TreeItem key={child.id} node={child} />)}
                 </ul>
-            )}
+            );}
         </li>
     );
 };
 export const TreeView: React.FC<{ data: TreeNodeData[]; className?: string }> = ({ data, className = '' }) => (
     <ul className={`space-y-1 ${className}`}>
-        {data.map(node => <TreeNode key={node.id} node={node} />)}
+        {data.map(node => <TreeItem key={node.id} node={node} />)}
     </ul>
 );
