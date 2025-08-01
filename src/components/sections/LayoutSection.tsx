@@ -50,7 +50,7 @@ export const LayoutSection: React.FC<{ groupTitle: string; sectionTitle: string;
         
         <SubSection title="<Container />">
             <p className="text-text-secondary dark:text-dark-text-secondary -mt-4 mb-4 max-w-2xl">
-                The `<Container />` component constrains your content to a standard, centered max-width. Use it as the main wrapper for your page content to ensure readability on wide screens.
+                The component constrains your content to a standard, centered max-width. Use it as the main wrapper for your page content to ensure readability on wide screens.
             </p>
             <ComponentPreview>
                 <Container className="w-full bg-bg-tertiary dark:bg-dark-bg-tertiary p-4 rounded-lg">
@@ -66,7 +66,7 @@ export const LayoutSection: React.FC<{ groupTitle: string; sectionTitle: string;
 
         <SubSection title="<Stack />">
             <p className="text-text-secondary dark:text-dark-text-secondary -mt-4 mb-4 max-w-2xl">
-                The `<Stack />` component is used to arrange a group of elements in a vertical column with a consistent gap between them. It's the ideal way to manage vertical rhythm without adding manual margins to each element.
+                The component is used to arrange a group of elements in a vertical column with a consistent gap between them. It's the ideal way to manage vertical rhythm without adding manual margins to each element.
             </p>
             <ComponentPreview>
                 <Stack gap={6} className="w-full max-w-md">
@@ -81,7 +81,7 @@ export const LayoutSection: React.FC<{ groupTitle: string; sectionTitle: string;
         
         <SubSection title="<Grid />">
             <p className="text-text-secondary dark:text-dark-text-secondary -mt-4 mb-4 max-w-2xl">
-                The `<Grid />` component is a declarative way to create responsive grid layouts. Pass a number to `columns` for a simple grid, or an object for a grid that adapts to different breakpoints.
+                The  component is a declarative way to create responsive grid layouts. Pass a number to `columns` for a simple grid, or an object for a grid that adapts to different breakpoints.
             </p>
             <ComponentPreview>
                 <Grid columns={{ sm: 2, lg: 3 }} gap={6} className="w-full">
