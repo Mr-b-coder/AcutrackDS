@@ -47,7 +47,7 @@ const ButtonInner = <C extends React.ElementType = 'button'>(
 
     const variantClasses: Record<NonNullable<ButtonOwnProps<'button'>['variant']>, string> = {
         primary: 'bg-brand-orange border-transparent text-white hover:bg-brand-orange-hover disabled:hover:bg-brand-orange',
-        secondary: 'bg-bg-tertiary dark:bg-dark-bg-tertiary border-border-color dark:border-dark-border-strong text-text-primary dark:text-dark-text-primary hover:bg-border-color/60 dark:hover:bg-dark-border-color/60',
+        secondary: 'bg-bg-tertiary dark:bg-dark-bg-tertiary border-border-color dark:border-dark-text-secondary text-text-primary dark:text-dark-text-primary hover:bg-border-color/60 dark:hover:bg-dark-border-color/60',
         text: 'bg-transparent border-transparent text-text-primary dark:text-dark-text-primary hover:bg-bg-tertiary dark:hover:bg-dark-bg-tertiary',
     };
 

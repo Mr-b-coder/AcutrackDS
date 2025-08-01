@@ -186,7 +186,7 @@ export const WebsitePreviewPage: React.FC<{ id: string; }> = ({ id }) => {
                                 </p>
                                 <div className="mt-8 flex justify-center gap-4">
                                     <Button variant="primary" size="lg">Get a Free Quote</Button>
-                                    <Button variant="secondary" size="lg" rightIcon={<Icon>arrow_forward</Icon>} className="!border-white/80 !text-white/80 hover:!bg-white/10 hover:!text-white">Explore Services</Button>
+                                    <Button variant="secondary" size="lg" rightIcon={<Icon>arrow_forward</Icon>}>Explore Services</Button>
                                 </div>
                             </div>
                         </div>
