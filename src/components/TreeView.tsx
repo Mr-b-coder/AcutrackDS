@@ -2,7 +2,7 @@
 // This component displays hierarchical data in a tree structure.
 
 import React, { useState } from 'react';
-import { TreeViewProps } from '../../types.ts';
+import { TreeViewProps, TreeNodeData } from '../../types.ts';
 import { Icon } from './icons.tsx';
 
 const TreeItem: React.FC<{ node: TreeNodeData }> = ({ node }) => {
