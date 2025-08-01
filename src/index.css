@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply font-body bg-bg-primary dark:bg-dark-bg-primary text-text-secondary dark:text-dark-text-secondary transition-colors duration-300; -webkit-font-smoothing: antialiased; }
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24 }
+}
+@layer components {
+  .sidebar-link { @apply block text-sm text-white/80 hover:text-white font-medium py-2 px-4 rounded-lg transition-all; }
+  .sidebar-link.active { @apply bg-black/20 text-white font-bold; }
+  .section-title { @apply font-heading text-4xl text-text-primary dark:text-dark-text-primary mb-4; }
+  .section-subtitle { @apply text-lg text-text-secondary dark:text-dark-text-secondary mb-8 max-w-3xl; }
+  .component-preview { @apply bg-bg-secondary dark:bg-dark-bg-secondary p-8 rounded-xl border border-border-color dark:border-dark-border-color; }
+  .component-title { @apply text-xl font-bold font-body text-text-primary dark:text-dark-text-primary mb-6; }
+  
+  .code-block { @apply relative bg-dark-bg-secondary rounded-xl text-sm; }
+  .code-block pre { @apply p-4 overflow-x-auto; }
+  .code-block code { @apply font-mono text-dark-text-secondary; }
+  .code-block .copy-button { @apply absolute top-3 right-3 p-1.5 bg-dark-bg-tertiary/80 rounded-md text-dark-text-secondary hover:text-dark-text-primary hover:bg-dark-bg-tertiary; }
+  
+  .custom-scrollbar {
+    /* For Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #DFE4E9 #F6F8FD;
+  }
+  .dark .custom-scrollbar {
+    scrollbar-color: #1F3A61 #0A1931;
+  }
+  .custom-scrollbar::-webkit-scrollbar { @apply w-2; }
+  .custom-scrollbar::-webkit-scrollbar-track { @apply bg-bg-tertiary/50 dark:bg-dark-bg-primary; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { @apply rounded-full bg-brand-navy/30 dark:bg-dark-bg-tertiary; }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { @apply bg-brand-navy/50 dark:bg-dark-bg-secondary; }
+
+  .custom-scrollbar-hidden::-webkit-scrollbar { @apply w-0 h-0; }
+  .custom-scrollbar-hidden::-webkit-scrollbar-track { @apply bg-transparent; }
+  .custom-scrollbar-hidden::-webkit-scrollbar-thumb { @apply bg-transparent; }
+
+  .custom-slider {
+    @apply w-full h-2 bg-bg-tertiary rounded-lg appearance-none cursor-pointer dark:bg-dark-bg-tertiary;
+  }
+  .custom-slider::-webkit-slider-thumb {
+    @apply appearance-none w-5 h-5 bg-brand-orange rounded-full ring-4 ring-bg-secondary/50 dark:ring-dark-bg-secondary/50 shadow-md cursor-pointer transition-transform active:scale-110;
+  }
+  .custom-slider::-moz-range-thumb {
+    @apply w-5 h-5 bg-brand-orange rounded-full border-none shadow-md cursor-pointer;
+  }
+}
