@@ -54,6 +54,7 @@ import {
     UsageGuideSection,
     PopoverSection,
     BannerSection,
+    ComponentsSection,
 } from './components/sections';
 
 const navItems: NavItemGroup[] = [
@@ -170,6 +171,7 @@ const navItems: NavItemGroup[] = [
              { href: "#faq", label: "FAQ" },
              { href: "#figma-library", label: "Figma Library" },
              { href: "#voicetone", label: "Voice & Tone" },
+             { href: "#components-list", label: "Components" },
         ]
     }
 ];
@@ -228,6 +230,7 @@ const sectionComponents: Record<string, React.FC<any>> = {
     voicetone: VoiceToneSection,
     'dos-and-donts': DosAndDontsSection,
     'usage-guide': UsageGuideSection,
+    'components-list': ComponentsSection,
 };
 
 // --- Section Navigator Component ---

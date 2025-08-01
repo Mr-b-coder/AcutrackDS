@@ -48,6 +48,7 @@ export * from './DosAndDontsSection';
 export * from './UsageGuideSection';
 export * from './SidebarSection';
 export * from './HeaderSection';
+export * from './ComponentsSection';
 
 // Page Examples
 export * from './page-examples/DashboardPage';
