@@ -122,6 +122,8 @@ export default {
         'slide-out-right': 'slide-out-right 0.3s ease-in',
         'progress-stripes': 'progress-stripes 1s linear infinite',
       },
+      fill: ({ theme }) => theme('colors'),
+      stroke: ({ theme }) => theme('colors'),
     }
   },
   plugins: [
