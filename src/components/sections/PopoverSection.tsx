@@ -7,7 +7,7 @@ import { Popover, PopoverPosition } from '../Popover.tsx';
 import { Icon } from '../icons.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const popoverRootProps: PropDef[] = [
     { name: 'children', type: 'React.ReactNode', default: 'N/A', description: 'Should contain a Popover.Trigger and a Popover.Content component.' },

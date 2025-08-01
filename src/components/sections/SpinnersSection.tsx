@@ -4,7 +4,7 @@
 import React, { useState, useMemo } from 'react';
 import { SectionContainer, ComponentPreview, SubSection, Spinner, Button, PropsTable, Radio } from '../Content.tsx';
 import type { SpinnerProps } from '../Content.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Icon } from '../icons.tsx';

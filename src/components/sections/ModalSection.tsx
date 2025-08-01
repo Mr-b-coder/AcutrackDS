@@ -16,7 +16,7 @@ import {
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import { Modal } from '../Modal.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import type { ModalSize } from '../Modal.tsx';
 import { Icon } from '../icons.tsx';
 

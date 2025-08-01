@@ -6,7 +6,7 @@ import { SectionContainer, SubSection, ComponentPreview, Button, PropsTable, Ava
 import { Icon } from '../icons.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Dropdown, DropdownPosition } from '../Dropdown.tsx';
 
 const dropdownRootProps: PropDef[] = [

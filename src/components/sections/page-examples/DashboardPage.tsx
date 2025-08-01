@@ -8,7 +8,7 @@ import { Icon } from '../../icons.tsx';
 import { LineChart, DonutChart } from '../../charts.tsx';
 import { PageExampleFrame } from './PageExampleFrame.tsx';
 import { CollapsibleSidebar } from '../../Sidebars/CollapsibleSidebar.tsx';
-import { NavItemGroup } from '../../../types.ts';
+import { NavItemGroup } from '../../../../types.ts';
 
 
 // Mock Data

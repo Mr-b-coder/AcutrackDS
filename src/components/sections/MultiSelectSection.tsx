@@ -11,7 +11,7 @@ import {
 import { Icon } from '../icons.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const userOptions = [
     { value: '1', label: 'Alice Smith' },

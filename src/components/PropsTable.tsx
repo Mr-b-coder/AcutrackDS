@@ -2,7 +2,7 @@
 // This component renders a table for displaying component prop definitions.
 
 import React from 'react';
-import { PropDef } from '../types.ts';
+import { PropDef } from '../../types.ts';
 
 export const PropsTable: React.FC<{data: PropDef[]}> = ({data}) => (
     <div className="w-full overflow-x-auto">

@@ -5,7 +5,7 @@ import React from 'react';
 import { SectionContainer, ComponentPreview, SubSection, Button, PropsTable } from '../Content.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Icon } from '../icons.tsx';
 
 

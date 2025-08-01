@@ -14,7 +14,7 @@ import {
     Slider,
 } from '../Content.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import { Icon } from '../icons.tsx';
 

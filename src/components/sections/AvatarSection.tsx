@@ -17,7 +17,7 @@ import {
 } from '../Content.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const avatarProps: PropDef[] = [
     { name: 'src', type: 'string', default: 'N/A', description: 'The URL of the user\'s image.' },

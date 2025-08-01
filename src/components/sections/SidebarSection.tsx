@@ -11,7 +11,7 @@ import {
 import { Icon } from '../icons.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef, NavItemGroup } from '../../types.ts';
+import { NavItemGroup, NavItem } from '../../../types.ts';
 import { CollapsibleSidebar } from '../Sidebars/CollapsibleSidebar.tsx';
 
 const sidebarNavGroups: NavItemGroup[] = [

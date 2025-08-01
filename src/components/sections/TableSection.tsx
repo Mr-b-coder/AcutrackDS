@@ -21,7 +21,7 @@ import {
 import { Table } from '../Table.tsx';
 import { Icon } from '../icons.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import CodeBlock from '../CodeBlock.tsx';
 
 const simpleTableData = [

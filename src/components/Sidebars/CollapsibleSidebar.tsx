@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavItemGroup, NavItem } from '../../types.ts';
+import { NavItemGroup, NavItem } from '../../../types.ts';
 import { Icon } from '../icons.tsx';
 import { Tooltip } from '../Tooltip.tsx';
 

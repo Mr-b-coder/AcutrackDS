@@ -5,7 +5,7 @@ import { SectionContainer, SubSection, ComponentPreview, Accordion, PropsTable }
 import { Icon } from '../icons.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const accordionProps: PropDef[] = [
     { name: 'title', type: 'string', default: 'N/A', description: 'The visible title of the accordion header.' },

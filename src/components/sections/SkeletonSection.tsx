@@ -4,7 +4,7 @@ import React, { useState, useMemo } from 'react';
 import { SectionContainer, SubSection, ComponentPreview, Skeleton, PropsTable, Card, Slider, Checkbox } from '../Content.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const skeletonProps: PropDef[] = [
     { name: 'height', type: 'string | number', default: 'N/A', description: 'Sets the height of the skeleton element (e.g., "1rem", 16).' },

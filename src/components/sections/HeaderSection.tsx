@@ -10,7 +10,7 @@ import {
 } from '../Content.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Header } from '../Header.tsx';
 
 // Data for the demo and docs

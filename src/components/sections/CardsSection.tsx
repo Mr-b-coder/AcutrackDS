@@ -3,7 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { SectionContainer, SubSection, ComponentPreview, Card, Button, PropsTable, Radio, Checkbox } from '../Content.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Icon } from '../icons.tsx';
 
 const basicCardCode = `import { Card } from './components/Content.tsx';

@@ -6,7 +6,7 @@ import { SectionContainer, ComponentPreview, SubSection, Stepper, Button, PropsT
 import { Icon } from '../icons.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const stepperRootProps: PropDef[] = [
     { name: 'currentStep', type: 'number', default: 'N/A', description: 'The number of the currently active step (1-based).' },

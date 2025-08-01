@@ -7,7 +7,7 @@ import { Tooltip } from '../Tooltip.tsx';
 import { Icon } from '../icons.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const alertProps: PropDef[] = [
     { name: 'variant', type: "'success' | 'warning' | 'error' | 'info'", default: "'info'", description: 'Determines the color and icon of the alert.' },

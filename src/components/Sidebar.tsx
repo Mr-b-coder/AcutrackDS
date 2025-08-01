@@ -5,7 +5,7 @@
 
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { NavItemGroup, Theme, NavItem } from '../types.ts';
+import { Theme, NavItemGroup, NavItem } from '../../types.ts';
 import { Icon } from './icons.tsx';
 
 interface SidebarProps {

@@ -12,7 +12,7 @@ import {
 } from '../Content.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef, TreeNodeData } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const fileExplorerData: TreeNodeData[] = [
     {

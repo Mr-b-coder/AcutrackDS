@@ -6,7 +6,7 @@ import { Banner, BannerProps, BannerVariant } from '../Banner.tsx';
 import { useToast } from '../Toast.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Icon } from '../icons.tsx';
 
 const bannerProps: PropDef[] = [

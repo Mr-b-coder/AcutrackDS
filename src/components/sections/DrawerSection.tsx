@@ -15,7 +15,7 @@ import {
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import { Drawer } from '../Drawer.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const drawerProps: PropDef[] = [
     { name: 'isOpen', type: 'boolean', default: 'N/A', description: 'Controls whether the drawer is visible.' },

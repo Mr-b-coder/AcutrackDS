@@ -10,7 +10,7 @@ import {
 } from '../Content.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const countryOptions = [
     { value: 'US', label: 'United States' },

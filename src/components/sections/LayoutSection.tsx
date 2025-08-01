@@ -5,7 +5,7 @@ import React from 'react';
 import { SectionContainer, SubSection, ComponentPreview, Card, PropsTable, Container, Stack, Grid } from '../Content.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const containerProps: PropDef[] = [
     { name: 'children', type: 'React.ReactNode', default: 'N/A', description: 'The content to be placed inside the container.' },

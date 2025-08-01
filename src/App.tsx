@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { Theme, NavItemGroup, NavItem } from './types.ts';
+import { Theme, NavItemGroup, NavItem } from '../types.ts';
 import Sidebar from './components/Sidebar.tsx';
 import { Icon } from './components/icons.tsx';
 import { ToastProvider } from './components/Toast.tsx';

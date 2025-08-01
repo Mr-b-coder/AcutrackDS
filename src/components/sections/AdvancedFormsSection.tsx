@@ -15,7 +15,7 @@ import {
 import { Icon } from '../icons.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 
 const datePickerProps: PropDef[] = [
     { name: 'label', type: 'string', default: 'N/A', description: 'The text label displayed above the picker.' },

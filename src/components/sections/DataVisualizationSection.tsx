@@ -6,7 +6,7 @@ import { SectionContainer, ComponentPreview, SubSection, PropsTable, Button, Rad
 import { Icon } from '../icons.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { 
     BarChart, 
     LineChart, 

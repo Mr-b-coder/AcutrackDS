@@ -13,7 +13,7 @@ import {
     Checkbox
 } from '../Content.tsx';
 import type { ProgressProps } from '../Content.tsx';
-import { PropDef } from '../../types.ts';
+import { PropDef } from '../../../types.ts';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 import CodeBlock from '../CodeBlock.tsx';
 
