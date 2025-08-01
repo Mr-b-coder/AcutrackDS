@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  html { font-size: 15px; }
   body { @apply font-body bg-bg-primary dark:bg-dark-bg-primary text-text-secondary dark:text-dark-text-secondary transition-colors duration-300; -webkit-font-smoothing: antialiased; }
   .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24 }
 }
