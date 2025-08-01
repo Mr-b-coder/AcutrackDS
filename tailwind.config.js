@@ -44,7 +44,7 @@ export default {
         'dark-bg-secondary': '#102A4C',
         'dark-bg-tertiary': '#1F3A61',
         
-        'dark-border-color': '#1F3A61',
+        'dark-border-color': '#3C5A80',
         'dark-border-strong': '#F6F8FD',
 
         // --- SYSTEM COLORS ---
