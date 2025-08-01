@@ -34,3 +34,5 @@ export interface TreeNode {
 export interface TreeViewProps {
     nodes: TreeNode[];
 }
+
+// Added to force TypeScript re-evaluation
