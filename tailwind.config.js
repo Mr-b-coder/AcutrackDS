@@ -5,6 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
+  safelist: [
+    'fill-brand-orange',
+    'fill-system-info',
+    'fill-system-success',
+    'fill-brand-navy',
+    'fill-system-warning',
+    'fill-system-error',
+    'stroke-brand-orange',
+    'stroke-system-info',
+    'stroke-system-success',
+    'stroke-brand-navy',
+    'stroke-system-warning',
+    'stroke-system-error',
+  ],
   theme: {
     extend: {
       fontFamily: {
