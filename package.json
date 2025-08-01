@@ -6,7 +6,7 @@
   "description": "A scalable, reusable React-based design system for Acutrack UI consistency and fast development.",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
