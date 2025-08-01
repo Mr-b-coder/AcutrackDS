@@ -25,7 +25,7 @@ const TreeItem: React.FC<{ node: TreeNodeData }> = ({ node }) => {
                 <ul className="pl-6 border-l ml-3 border-border-color dark:border-dark-border-color">
                     {node.children!.map(child => <TreeItem key={child.id} node={child} />)}
                 </ul>
-            );}
+            )}
         </li>
     );
 };
