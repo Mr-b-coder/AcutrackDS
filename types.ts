@@ -1,6 +1,3 @@
-
-
-
 export type Theme = 'light' | 'dark';
 
 export interface NavItem {
@@ -26,4 +23,14 @@ export interface TreeNodeData {
   label: string;
   icon?: string;
   children?: TreeNodeData[];
+}
+
+export interface TreeNode {
+    id: string;
+    label: string;
+    children?: TreeNode[];
+}
+
+export interface TreeViewProps {
+    nodes: TreeNode[];
 }
