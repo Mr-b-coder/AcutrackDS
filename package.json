@@ -1,7 +1,6 @@
 {
   "name": "acutrack-design-system",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.1",
   "type": "module",
   "description": "A scalable, reusable React-based design system for Acutrack UI consistency and fast development.",
   "scripts": {
@@ -39,7 +38,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/acutrack-design-system"
+    "url": "https://github.com/acutrack-bookprint/AcutrackDS.git"
   },
   "keywords": [
     "design-system",

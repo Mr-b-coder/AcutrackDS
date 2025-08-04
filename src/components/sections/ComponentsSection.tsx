@@ -1,5 +1,6 @@
 import React from 'react';
-import { SectionContainer, SubSection, CodeBlock } from '../Content.tsx';
+import { SectionContainer, SubSection } from '../Content.tsx';
+import CodeBlock from '../CodeBlock.tsx';
 import { Breadcrumb } from '../Breadcrumb.tsx';
 
 export const ComponentsSection: React.FC<{ groupTitle: string; sectionTitle: string; id: string; }> = ({ groupTitle, sectionTitle, id }) => {
